@@ -35,7 +35,7 @@ def audio_out(text):
 
 	music = pyglet.media.load(filename, streaming = False) # Alows us to play the encoded file
 	#streaming = False makes sure that no sub prosceses are using it
-	musci.play() # plays the audi
+	musci.play() # plays the audio
 
 	time.sleep(music.duraation) # Makes the audio play within time
 	os.remove(filename) # removes the temporary file
